@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contato</title>
+		<style type="text/css">
+			body{
+				font-family: arial;
+				color: #000;
+				font-size: 24px;
+			}
+
+			fieldset, legend{ text-align: center; }
+
+			label{
+				font-family: arial;
+				color: #4169E1;
+				font-size: 24px;
+			}
+		</style>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Contato</legend>
+			<form method="get" action="cadastro.html">
+				<center>
+					<table border="0">
+						<tr>
+							<td>
+								<label>Nome:</label>
+							</td>
+							<td>
+								<input type="text" name="nome" size="40" placeholder="Digite o seu nome">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Data de Nascimento:</label>
+							</td>
+							<td>
+								<input type="date" name="data">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Email:</label>
+							</td>
+							<td>
+								<input type="email" name="email" size="30" placeholder="Digite o seu Email">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Mensagem:</label>
+							</td>
+							<td>
+								<textarea name="Mensagem" rows="5" cols="25"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" align="center">
+								<input type="submit" value="Cadastrar">
+								<input type="reset" value="Limpar">
+								<input type="submit" value="Voltar">
+							</td>
+						</tr>
+					</table>
+				</center>
+			</form>
+		</fieldset>
+	</body>
+</html>
